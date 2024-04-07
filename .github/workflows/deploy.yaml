@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      HOST: root@127.0.0.1
+      HOST: root@158.43.23.102
       DEPLOY_DIRECTORY: /root/apps/grpc-auth
       CONFIG_PATH: /root/apps/grpc-auth/config/prod.yaml
 

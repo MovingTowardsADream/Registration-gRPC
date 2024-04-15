@@ -33,7 +33,7 @@ func main() {
 
 	log.Info("stopping application", slog.String("signal", sign.String()))
 
-	application.GRPCSrv.Stop()
+	application.GRPCSrv.Shutdown()
 
 	log.Info("application stopped")
 }
